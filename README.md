@@ -13,7 +13,7 @@ I do not take any responsibility for anyone using this script. Anyone using this
 $ git clone git@github.com:devzx/dictionary_scraper.git
 $ cd dictionary_scraper
 $ pip3 install -r requirements.txt
-$ python app.py
+$ python3 app.py
 ```
 
 You should end up with a file named 'words.txt' in your directory after running
