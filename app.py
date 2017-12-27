@@ -38,7 +38,8 @@ while len(pages_to_visit) != 0:
 
     time.sleep(SLEEP_TIME)
 
-with open('words.txt', 'w') as f:
+print('\nOutputting words to file')
+with open('words.txt', 'w', encoding='utf-8') as f:
     for word in sorted(words):
         f.write(word + '\n')
 f.close()
