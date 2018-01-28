@@ -1,4 +1,4 @@
-# dictionary_scraper
+# dictionary-scraper
 
 Scrape all the words from dictionary.com
 
