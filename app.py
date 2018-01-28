@@ -6,7 +6,7 @@ import time
 
 BASE_URL = 'http://www.dictionary.com/list/'
 SLEEP_TIME = 0.5
-# Generates URLs [ 'http://www.dictionary.com/list/a', 'http://www.dictionary.com/list/b' ]
+# Generates URLs [ 'http://www.dictionary.com/list/a/1', 'http://www.dictionary.com/list/b/1' ]
 BASE_URLS = [ BASE_URL + letter + '/' + str(1) for letter in string.ascii_lowercase ]
 pages_to_visit = BASE_URLS
 visited = []
