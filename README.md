@@ -10,8 +10,8 @@ I do not take any responsibility for anyone using this script. Anyone using this
 ```python3.6```
 ## Usage
 ``` sh
-$ git clone git@github.com:devzx/dictionary_scraper.git
-$ cd dictionary_scraper
+$ git clone git@github.com:devzx/dictionary-scraper.git
+$ cd dictionary-scraper
 $ pip3 install -r requirements.txt
 $ python3 app.py
 ```
